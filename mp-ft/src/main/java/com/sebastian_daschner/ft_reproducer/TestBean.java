@@ -3,9 +3,11 @@ package com.sebastian_daschner.ft_reproducer;
 import org.eclipse.microprofile.faulttolerance.Asynchronous;
 import org.eclipse.microprofile.faulttolerance.Bulkhead;
 
+import javax.enterprise.context.ApplicationScoped;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
+@ApplicationScoped
 public class TestBean {
 
     @Asynchronous
