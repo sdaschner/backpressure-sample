@@ -1,0 +1,1 @@
+Example project how to implement the bulkhead pattern and backpressure to enterprise applications using either MicroProfile Fault Tolerance or plain Java EE &amp; Porcupine
