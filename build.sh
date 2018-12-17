@@ -3,10 +3,10 @@ set -euo pipefail
 
 pushd mp-ft
   mvn clean package
-  docker build -t sdaschner/ft-reproducer:1 .
+  docker build -t sdaschner/backpressure-sample:1 .
 popd
 
 pushd porcupine
   mvn clean package
-  docker build -t sdaschner/ft-reproducer:2 .
+  docker build -t sdaschner/backpressure-sample:2 .
 popd
